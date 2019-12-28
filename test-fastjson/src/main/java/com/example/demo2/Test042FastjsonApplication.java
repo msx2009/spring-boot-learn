@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Helloworld2Application {
+public class Test042FastjsonApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(Helloworld2Application.class, args);
+		SpringApplication.run(Test042FastjsonApplication.class, args);
 	}
 
 }

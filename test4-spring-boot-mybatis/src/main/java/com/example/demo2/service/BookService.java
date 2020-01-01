@@ -17,10 +17,6 @@ public class BookService {
 		return bookMapper.addBook(book);
 	}
 	
-	public int deleteBookById(Integer id) {
-		return bookMapper.deleteBookById(id);
-	}
-
 	public Book getBookById(Integer id) {
 		return bookMapper.getBookById(id);
 	}

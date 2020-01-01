@@ -14,7 +14,6 @@ public class BookDao {
 		return jdbcTemplate.update("insert into book(name,author) values (?,?)",book.getName(),book.getAuthor());
 		
 	}
-
 	public Book getBookById(Integer id ) {
 		return jdbcTemplate.queryForObject("select * from book where id=?", new BeanPropertyRowMapper<>(Book.class) ,id);
 		

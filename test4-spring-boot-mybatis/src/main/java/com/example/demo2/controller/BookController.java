@@ -28,9 +28,6 @@ public class BookController {
 		return bookService.getBookById(id);
 	}
 	
-	@GetMapping("/deleteBookById")
-	public int deleteBookById(Integer id) {
-		return bookService.deleteBookById(id);
-	}
+
 
 }

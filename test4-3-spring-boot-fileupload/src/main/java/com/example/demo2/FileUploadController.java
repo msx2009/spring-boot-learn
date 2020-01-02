@@ -19,6 +19,7 @@ public class FileUploadController {
 		String realPath = req.getSession().getServletContext().getRealPath("uploadPath");
 		//String format = "test";
 		File folder = new File(realPath );
+		
 		System.out.println(realPath);
 		if (!folder.isDirectory()) {
 			folder.mkdir();
